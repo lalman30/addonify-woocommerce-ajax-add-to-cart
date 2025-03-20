@@ -3,9 +3,10 @@
  * Plugin Name:       Addonify WooCommerce Ajax Add to Cart
  * Plugin URI:        https://example.com/plugins/the-basics/
  * Description:        Ajax add to cart for WooCommerce.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
+ * Tested:            6.8
  * Author:            Addonify
  * Author URI:        https://author.example.com/
  * License:           GPL v2 or later
@@ -21,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'ADDONIFY_AJAX_ADDTOCART_VERSION' ) ) {
-	define( 'ADDONIFY_AJAX_ADDTOCART_VERSION', '1.0.0' );
+	define( 'ADDONIFY_AJAX_ADDTOCART_VERSION', '1.1.0' );
 }
 
 if ( ! defined( 'ADDONIFY_AJAX_ADDTOCART_PATH' ) ) {
